@@ -1,0 +1,275 @@
+/* Custom styles for Trucking ELD App */
+
+.App {
+  text-align: left;
+}
+
+/* Navigation */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-header {
+  font-weight: 600;
+}
+
+/* Forms */
+.form-label {
+  font-weight: 500;
+  color: #495057;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buttons */
+.btn {
+  font-weight: 500;
+  border-radius: 0.375rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Map styles */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-div-icon {
+  background: transparent;
+  border: none;
+}
+
+/* ELD Chart styles */
+.eld-chart {
+  position: relative;
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 0.375rem;
+}
+
+.chart-header {
+  margin-bottom: 10px;
+}
+
+.time-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-label {
+  flex: 1;
+  text-align: center;
+  font-size: 10px;
+  color: #6c757d;
+  border-left: 1px solid #e9ecef;
+}
+
+.time-label:first-child {
+  border-left: none;
+}
+
+.chart-body {
+  position: relative;
+  min-height: 200px;
+}
+
+.chart-bar {
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.chart-bar:hover {
+  opacity: 0.8;
+}
+
+/* Progress bars */
+.progress {
+  height: 1.5rem;
+  border-radius: 0.375rem;
+}
+
+.progress-bar {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Badges */
+.badge {
+  font-size: 0.75em;
+  font-weight: 500;
+}
+
+/* Alerts */
+.alert {
+  border-radius: 0.375rem;
+}
+
+.alert-success {
+  background-color: #d1edff;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeaa7;
+  color: #856404;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+/* Tables */
+.table {
+  margin-bottom: 0;
+}
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+/* List groups */
+.list-group-item {
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.list-group-item:first-child {
+  border-top: none;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+/* Utility classes */
+.text-muted {
+  color: #6c757d !important;
+}
+
+.font-weight-bold {
+  font-weight: 600 !important;
+}
+
+.mr-1 {
+  margin-right: 0.25rem !important;
+}
+
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+.mr-3 {
+  margin-right: 1rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+}
+
+/* Loading spinner */
+.spinner-border {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Custom scrollbar for long lists */
+.card-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.card-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.card-body::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
