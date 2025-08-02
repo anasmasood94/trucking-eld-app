@@ -1,7 +1,7 @@
 {
-  "name": "trucking-eld-app",
+  "name": "trucksafe-eld-system",
   "version": "1.0.0",
-  "description": "A full-stack Electronic Logging Device (ELD) application for trucking companies",
+  "description": "TruckSafe ELD - Professional Electronic Logging Device System for DOT compliance and intelligent route planning",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"cd backend && python manage.py runserver\" \"cd frontend && npm start\"",

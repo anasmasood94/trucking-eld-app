@@ -22,17 +22,17 @@ function App() {
     <div className="App">
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              setActiveTab('trip-form');
-            }}
-            style={{ cursor: 'pointer' }}
-          >
-            <i className="fas fa-truck mr-2"></i>
-            Trucking ELD System
-          </Navbar.Brand>
+                  <Navbar.Brand
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            setActiveTab('trip-form');
+          }}
+          style={{ cursor: 'pointer' }}
+        >
+          <i className="fas fa-truck mr-2"></i>
+          TruckSafe ELD
+        </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
